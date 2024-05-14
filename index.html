@@ -1,41 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head> <!-- Specifies stylesheet-->
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="blobCSSmath.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container"> <!--Blob / Border Containers-->
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="border"></div>
-            <div class="border"></div>
-        </div>
-        <svg> <!-- Blob combining math stuff-->
-            <defs>
-                <filter id='goo'>
-                    <feGaussianBlur in='SourceGraphic'
-                    stdDeviation='10'/>
-                    <feColorMatrix in='name' mode='matrix'
-                        values='1 0 0 0 0
-                                0 1 0 0 0
-                                0 0 1 0 0
-                                0 0 0 30 -15' /> 
-                    <feBlend in='SourceGraphic' />
-                </filter>
-            </defs>
-        </svg>
+        <h1 class="title">Title</h1>
     </body>
 </html>

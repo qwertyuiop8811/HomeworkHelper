@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(59, 59, 59);
+}
+
+.title{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
