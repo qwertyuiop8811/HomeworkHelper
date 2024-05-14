@@ -45,12 +45,12 @@ body {
 }
 
 .particle:nth-of-type(1){
-    left: 30%;
+    left: 10%;
     animation-delay: 1s;
 }
 
 .particle:nth-of-type(2){
-    left: 60%;
+    left: 5%;
     animation-delay: 2s;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .particle:nth-of-type(5){
-    left: 35%;
+    left: 20%;
     animation-delay: 5s;
 }
 
