@@ -12,9 +12,26 @@ body{
 .breakbar{
     overflow: hidden;
     background-color: rgb(59, 59, 59);
+    animation-name: colorshift;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 2%; margin-bottom: 2%;
+    border-radius: 10px;
 }
-.button{
-    background-color: #969696; /* Grey */
+
+@keyframes colorshift{
+    0%{background-color: red;}
+    15%{background-color: orange;}
+    30%{background-color: yellow;}
+    45%{background-color: green;}
+    60%{background-color: aqua;}
+    75%{background-color: blue;}
+    90%{background-color: purple;}
+    100%{background-color: red;}
+}
+
+.subbutton{
+    background-color: #3b3b3b; /* Grey */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -26,9 +43,44 @@ body{
     margin: 1%;
 }
 
+.subbutton:hover{
+    background-color: #2b2b2b;
+    transition-duration: 0.5s;
+}
+
+.mainbutton{
+    background-color: #a1a1a1; /* Grey */
+    color: rgb(41, 41, 41);
+    border: none;
+    padding: 15px 32px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.mainbutton:hover{
+    background-color: #757575;
+    transition-duration: 0.5s;
+}
+
+.fancybutton{
+    animation-name: colorshift;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    margin: 0.5%;
+}
+
 .title{
     color: rgb(194, 227, 255);
-    font-size: 40px;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
 }
