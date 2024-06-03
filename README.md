@@ -4,5 +4,5 @@
 
 the not games on this website include:
 
-```https://github.com/R74nCom/sandboxels```
-```https://github.com/landgreen/n-gon```
+[Sandbloxels Source](https://github.com/R74nCom/sandboxels)
+[N-Gon Source](https://github.com/landgreen/n-gon)
